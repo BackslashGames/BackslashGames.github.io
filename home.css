@@ -1,14 +1,18 @@
 h1 {
     text-align: center;
+     font-family: Sans-serif, Monospace;
 }
 h2 {
     text-align: center;
+     font-family: Sans-serif, Monospace;
 }
 h3 {
     text-align: center;
+     font-family: Sans-serif, Monospace;
 }
 p {
     text-align: center;
-    font-family: "Sans-serif";
+    font-family: Sans-serif, Monospace;
+    size: 20px;
 }
 
