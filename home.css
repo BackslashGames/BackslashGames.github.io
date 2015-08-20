@@ -80,9 +80,13 @@ p.purple {
     font-family: Sans-serif, Monospace;
     size: 20px;
 }
-.parallax-window {
-    min-height: 400px;
-    background: transparent;
+img.byTitle {
+    float: left;
+    clear: both;
+}
+h1.byTitle {
+    float: left;
+    clear: both;
 }
 
 
