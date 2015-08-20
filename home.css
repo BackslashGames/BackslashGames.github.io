@@ -44,11 +44,16 @@ height: 40vh;
     vertical-align: middle;
     color: white;
 }
-span{
+#titleSpan {
     background-color: rgb(255, 0, 0);
     display:table-cell;
     vertical-align:middle;
     text-align:center;
+}
+#titleDiv{
+    display:table; 
+    height:125px;  //JUST FOR SHOW
+    width:125px;   //JUST FOR SHOW
 }
 h1 {
     text-align: center;
