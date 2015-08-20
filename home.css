@@ -68,6 +68,11 @@ height: 40vh;
      color: white;
      size:30px;
 }
+.mainTitle {
+    text-align: center;
+     font-family: Sans-serif, Monospace
+     color: white;
+     size:40px;
 h1 {
     text-align: center;
      font-family: Sans-serif, Monospace
