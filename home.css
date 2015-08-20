@@ -5,6 +5,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.fixed {
+    position: fixed;
+}
 .bgWindowLarge {
   height: 100vh;
   background-attachment: fixed;
