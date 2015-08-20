@@ -18,6 +18,7 @@
     background-position: center center;
     background-size: cover;
   background-image: url("https://cloud.githubusercontent.com/assets/13873228/9384537/0439e47a-4749-11e5-885b-d3a3b78c14cc.png");
+  font-size: 0;
 }
 .bgWindowCode {
      height: 40vh;
@@ -25,6 +26,7 @@
     background-position: center center;
     background-size: cover;
   background-image: url("https://cloud.githubusercontent.com/assets/13873228/9386878/8167c690-4755-11e5-96f2-8d9c3ae8ec7f.png");
+  font-size: 0;
 }
 .imgTitle {
     text-align: center;
