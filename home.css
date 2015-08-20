@@ -59,9 +59,8 @@ p.purple {
     color: white;
     margin-left: 0px;
     margin-right: 0px; 
-    margin-top: 80px;
-    margin-bottom: 80px;
-    background-image: url("https://cloud.githubusercontent.com/assets/13873228/9383097/2f551310-473e-11e5-8965-e6d67328d574.png");   
+    background-image: url("https://cloud.githubusercontent.com/assets/13873228/9383097/2f551310-473e-11e5-8965-e6d67328d574.png");
+    background-size: contain;
 }
 
 
