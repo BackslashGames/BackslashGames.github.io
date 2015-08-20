@@ -51,10 +51,12 @@ h1 {
 h2 {
     text-align: center;
      font-family: Sans-serif, Monospace;
+     color: white;
 }
 h3 {
     text-align: center;
      font-family: Sans-serif, Monospace;
+     color: white;
 }
 .normal {
     text-align: center;
