@@ -20,23 +20,39 @@ IMG.centered {
     margin-left: auto;
     margin-right: auto 
 }
-p.beta {
+p.red em {
     text-align: center;
     font-family: Sans-serif, Monospace;
     size: 20px;
     color: red;
 }
-p.alpha {
+p.blue em {
     text-align: center;
     font-family: Sans-serif, Monospace;
     size: 20px;
     color: blue;
 }
-p.experimental {
+p.purple em {
     text-align: center;
     font-family: Sans-serif, Monospace;
     size: 20px;
     color: purple;
+}
+p.red {
+    text-align: center;
+    font-family: Sans-serif, Monospace;
+    size: 20px;
+}
+p.blue {
+    text-align: center;
+    font-family: Sans-serif, Monospace;
+    size: 20px;
+    color: blue;
+}
+p.purple {
+    text-align: center;
+    font-family: Sans-serif, Monospace;
+    size: 20px;
 }
 
 
