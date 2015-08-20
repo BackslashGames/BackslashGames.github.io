@@ -5,6 +5,15 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+#bar{
+    background:white;
+    position:absolute;
+    left: 0;
+    right: 0;
+    padding:15px;
+    height:60px;
+    background-size:100%;      
+}
 .fixed {
     position: fixed;
 }
