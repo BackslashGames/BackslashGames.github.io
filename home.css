@@ -23,6 +23,13 @@ height: 40vh;
     background-size: cover;
   background-image: url("https://cloud.githubusercontent.com/assets/13873228/9384537/0439e47a-4749-11e5-885b-d3a3b78c14cc.png");
 }
+.bgWindowDownloads {
+  height: 40vh;
+  background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+  background-image: url("http://blenderartists.org/forum/attachment.php?attachmentid=243656&d=1372702114");
+}
 .bgWindowSmall {
   height: 40vh;
   background-attachment: fixed;
