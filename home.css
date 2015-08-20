@@ -67,6 +67,11 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
+/*
+
+Colours!!!!!
+
+*/
 p.red em {
     text-align: center;
     font-family: Sans-serif, Monospace;
@@ -100,14 +105,6 @@ p.purple {
     text-align: center;
     font-family: Sans-serif, Monospace;
     size: 20px;
-}
-img.byTitle {
-    float: left;
-    clear: both;
-}
-h1.byTitle {
-    float: left;
-    clear: both;
 }
 
 
