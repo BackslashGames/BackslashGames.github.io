@@ -24,8 +24,10 @@ h {
      font-family: Sans-serif, Monospace
      color: white;
 }
+.middle {
+  text-align: center;
+}
 .centered {
-    text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
