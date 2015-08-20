@@ -24,8 +24,10 @@ h {
      color: white;
 }
 .middle {
-    display: block;
     margin-left: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
 }
 .centered {
     display: block;
