@@ -20,7 +20,8 @@
   background-image: url("https://cloud.githubusercontent.com/assets/13873228/9384537/0439e47a-4749-11e5-885b-d3a3b78c14cc.png");
 }
 .imgTitle {
-    text-align: center, center;
+    text-align: center;
+    vertical-align: center;
     color: white;
 
 h1 {
