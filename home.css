@@ -41,7 +41,7 @@ p {
     font-family: Sans-serif, Monospace;
     size: 20px;
 }
-IMG.centered {
+.centered {
     display: block;
     margin-left: auto;
     margin-right: auto 
