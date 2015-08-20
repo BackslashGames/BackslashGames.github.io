@@ -44,9 +44,16 @@ height: 40vh;
     vertical-align: middle;
     color: white;
 }
+span{
+    background-color: rgb(255, 0, 0);
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
 h1 {
     text-align: center;
-     font-family: Sans-serif, Monospace;
+     font-family: Sans-serif, Monospace
+     color: white;
 }
 h2 {
     text-align: center;
