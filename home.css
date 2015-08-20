@@ -52,7 +52,7 @@ h3 {
     text-align: center;
     font-family: Sans-serif, Monospace;
     font-size: 20px;
-   /* (bgWindowCode.ignore{font-size: 0;}) */
+   color: white;
 }
 .centered {
     display: block;
