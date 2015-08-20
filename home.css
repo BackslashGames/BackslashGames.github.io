@@ -54,6 +54,12 @@ p.purple {
     font-family: Sans-serif, Monospace;
     size: 20px;
 }
+.parent
+{
+    margin-left: 0px;
+    margin-right: 0px;    
+    background-color: #aaaaaa;   
+}
 
 
 
