@@ -5,6 +5,14 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.bgWindowCmd
+height: 40vh;
+  background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+  background-image: url("https://cloud.githubusercontent.com/assets/13873228/9388769/7be46034-475f-11e5-8301-1edc2c91c1ec.png");
+  font-size: 0;
+ }
 .fixed {
     position: fixed;
 }
