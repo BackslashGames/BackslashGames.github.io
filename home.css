@@ -1,5 +1,5 @@
 #background{
-    background-image: url("https://drive.google.com/open?id=0BwokEVDXeAOxQXl0UWJDQ3dqaG8");
+    background-image: url("https://cloud.githubusercontent.com/assets/13873228/9384537/0439e47a-4749-11e5-885b-d3a3b78c14cc.png");
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -7,9 +7,7 @@
 .bgWindow {
   height: 100vh;
 
-  background-image: url(
-    https://drive.google.com/open?id=0BwokEVDXeAOxQXl0UWJDQ3dqaG8
-  );
+  background-image: url("https://cloud.githubusercontent.com/assets/13873228/9384537/0439e47a-4749-11e5-885b-d3a3b78c14cc.png");
 }
 
 h1 {
