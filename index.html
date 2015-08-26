@@ -1,84 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!--JQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="javascript/parralax.js"></script>
-        <link rel="shortcut icon" type="image/png" href="https://cloud.githubusercontent.com/assets/13873228/9369951/ab799454-46c4-11e5-84f1-1eac12c67973.png" />
-        <link rel="stylesheet" type="text/css" href="home.css">
-        <title>Backslash - Home</title>
-        <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-                <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-                    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-        <!--NavBar Starts Here-->
-       <nav class="navbar navbar-default navbar-fixed-top">
-                <ul>
-            <div class="container-fluid ">
-                <div class="navbar-header ">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="collapsable">
-      </button>
-                </div class="nav-collapse collapse collapsable">
-                <div>
-                    <ul class="nav navbar-nav ">
-                        <li class="active "><a href="index.html">Home</a></li>
-                        <li class="dropdown "><a class="dropdown-toggle " data-toggle="dropdown" href="#">Code <span class="caret "></span></a>
-                            <ul class="dropdown-menu ">
-                                <li><a href="spigot.html">Spigot Plugins</a></li>
-                                <li><a href="cmdBlocks">Command Blocks</a></li>
-                                <li><a href="scripts.html">Scripts</a></li>
-                                <li><a href="tutorials.html">Tutorials</a></li>
-                            </ul>
-                            <li class="dropdown "><a class="dropdown-toggle " data-toggle="dropdown" href="#">Projects<span class="caret "></span></a>
-                                <ul class="dropdown-menu ">
-                                    <li><a href="hyperflux.html">HyperFlux</a></li>
-                                    <li><a href="narration.html">Narration Plugin</a></li>
-                                    <li><a href="dungeonMechanics.html">Dungeon Mechanics</a></li>
-                                </ul>
-                                <li class="dropdown "><a class="dropdown-toggle " data-toggle="dropdown" href="#">Downloads<span class="caret "></span></a>
-                                    <ul class="dropdown-menu ">
-                                        <li><a href="MCMaps.html">Minecraft Maps</a></li>
-                                        <li><a href="MCResourcePacks.html"><font color=red>Minecraft Resource Packs</font></a></li>
-                                        <li><a href="downloads.html"><font color=red>Other Projects</font></a></li>
-                                    </ul>
 
-                        </li>
-                    </ul>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Creative - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Back\slash Games</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">Code</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Downloads</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Back\slash games</h1>
+                <hr>
+                <p>Free code, programs, and games!</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">We've got what you need!</h2>
+                    <hr class="light">
+                    <p class="text-faded">Backslash Games has lots of methods and pieces of code for spigot plugins, minecraft mods and standalone projects as well as simple programs to help you. We are also working on a forums and sharing section of the website to get everyone involved!</p>
+                    <a href="#" class="btn btn-default btn-xl">See the code page</a>
                 </div>
             </div>
-        </nav>
-        <!--NavBar Ends Here-->
-        <br/>
-        <div class="alert alert-warning alert-dismissible" role="alert" style="height: 60px;">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  <strong>Warning!</strong> This website is still under construction and may not look right on mobiles.
-</div>
-        <!--LOGO   <img class="byImage" src="https://cloud.githubusercontent.com/assets/13873228/9385130/9f65a332-474c-11e5-8e8c-6712783188e8.png" style="width:50px;height:50px;">-->
-        <!--<h1 class="imgTitle byImage">Backslash</h1>-->
-        <div color="#6495ec">
-            <h1 class="mainTitle">Backslash</h1>
         </div>
-        <HR COLOR="blue" WIDTH="60%">
-        <h2 class="normal">Code</h2>
-        <br >
-        
-        <p class="normal">All scripts, Minecraft command block creations, programs, and plugins</p>
-        <p class="normal">will be posted onto our website.</p>
-        <p class="normal">In the 'code' section of the website, you will find the raw code or pieces</p> 
-        <p class="normal">of code that we found to be particually useful when creating the program.</p>
-        <hr color:"blue">
-        <h2 class="whiteTitle">Projects</h2>
-         <p class="black">We will post information about projects we are currently working on in this section</p>
-        <p class="black">The projects may not be fully completed or available for download, but we will post</p>
-        <p class="black">frequent updates about the projects and information regarding them.</p>
-        <hr color:"blue">
-        <h3 class="blackTitle">Downloads</h3>
-            <br/>
-        <p class="normal">This is where you will find all our completed projects, along with their respective</p>
-        <p class="normal">licences and other information you will need to know before downloading.</p>
-        <br/>
-    </body>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">At Your Service</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+                        <h3>Easy to Use</h3>
+                        <p class="text-muted">We try to make our projects simple to use and our descriptions easy to understand and adapt so new coders don't feel lost.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>Ready to Use</h3>
+                        <p class="text-muted">All of our completed projects shouldn't need any adjusting and will be ready to use as soon as you download them.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>Up to Date</h3>
+                        <p class="text-muted">All our projects and code are as up-to-date as we can make them. making them safe, secure and compatible with other programs.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>Made With Love</h3>
+                        <p class="text-muted">We love making games and writing code! We also love to help other people do the same, which is the main reason for this website.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="https://cloud.githubusercontent.com/assets/13873228/9493823/4926a2b6-4bfa-11e5-91c4-54aa3d932569.png" class="img-responsive" alt="Hyperflux" >
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Game
+                                </div>
+                                <div class="project-name">
+                                    Hyperflux
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="https://cloud.githubusercontent.com/assets/13873228/9493915/c916c078-4bfa-11e5-9732-daafd5167425.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Minecraft Plugin
+                                </div>
+                                <div class="project-name">
+                                    Server Enhancements
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="https://cloud.githubusercontent.com/assets/13873228/9493978/3fd7d85a-4bfb-11e5-9a47-e63d4a6ce55c.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Minecraft Creation
+                                </div>
+                                <div class="project-name">
+                                    Dungeon Mechanics
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://backslashgames.github.io/MCMaps.html" class="portfolio-box">
+                        <img src="https://cloud.githubusercontent.com/assets/13873228/9493914/c7bb9faa-4bfa-11e5-8c60-fab36223a7c6.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Minecraft Map
+                                </div>
+                                <div class="project-name">
+                                    ExploTT
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://backslashgames.github.io/MCMaps.html" class="portfolio-box">
+                        <img src="https://cloud.githubusercontent.com/assets/13873228/9493804/2b40db90-4bfa-11e5-83c7-5d31ef16977f.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Minecraft Map
+                                </div>
+                                <div class="project-name">
+                                    Arrow Standoff
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="https://cloud.githubusercontent.com/assets/13873228/9493916/ca86fb08-4bfa-11e5-80ec-cb7847e04ada.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Music
+                                </div>
+                                <div class="project-name">
+                                    Acrogenous_ MusicBox
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>All Free to download at our downloads page!</h2>
+                <a href="#" class="btn btn-default btn-xl wow bounceIn">Downloads</a>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Can't find our forums page?</h2>
+                    <hr class="primary">
+                    <p>Our forums page is still in the works, but it is going to available soon as a beta!</p>
+                </div>
+               <!--<a href="#" class="btn btn-default btn-xl wow bounceIn">Forums</a>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</body>
+
 </html>
