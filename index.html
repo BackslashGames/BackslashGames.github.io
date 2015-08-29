@@ -2,6 +2,28 @@
 <html lang="en">
 
 <head>
+    <style> 
+.floatIn {
+    position: relative;
+    -webkit-animation: mymove 3s;  /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 2;  /* Chrome, Safari, Opera */
+    -webkit-animation-fill-mode: forwards;  /* Chrome, Safari, Opera */
+    animation: mymove 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+</style>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -78,7 +100,7 @@
                 <hr>
                 <p>We're Sorry, but the website is on holiday at the moment. It's coming back soon!</p>
                 <hr>
-                <a href="http://https://github.com/BackslashGames/"><span class="hb inv hb-md"><i class="fa fa-github"></i></span></a>
+                <a href="http://https://github.com/BackslashGames" class="btn btn-primary btn-xl page-scroll floatIn">- GitHub -</a>
             </div>
         </div>
     </header>
