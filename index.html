@@ -3,15 +3,8 @@
 
 <head>
     <style> 
-    .grow {
-    animation-name: grow;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    -webkit-animation-name: grow;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-fill-mode: forwards;
 }
-.floatIn {
+.floatUp {
     position: relative;
     -webkit-animation: mymove 3s;  /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: 2;  /* Chrome, Safari, Opera */
@@ -23,12 +16,32 @@
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
-    from {top: 200px;}
+    from {top: 250px;}
     to {top: 0px;}
 }
 
 @keyframes mymove {
-    from {top: 200px;}
+    from {top: 250px;}
+    to {top: 0px;}
+}
+.floatDown {
+    position: relative;
+    -webkit-animation: mymove 3s;  /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 2;  /* Chrome, Safari, Opera */
+    -webkit-animation-fill-mode: forwards;  /* Chrome, Safari, Opera */
+    animation: mymove 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {top: -200px;}
+    to {top: 0px;}
+}
+
+@keyframes mymove {
+    from {top: -200px;}
     to {top: 0px;}
 }
 </style>
