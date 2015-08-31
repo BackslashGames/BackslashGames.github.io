@@ -371,7 +371,7 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 .out {
-    text-size: 0px;
+    text-size: 3px;
 }
 .hyperflux {
     width: 100%;
