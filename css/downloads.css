@@ -3,8 +3,6 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
- .button { width: 150px; padding: 10px; background-color: #FF8C00; box-shadow: -8px 8px 10px 3px rgba(0,0,0,0.2); font-weight:bold; text-decoration:none; } #cover{ position:fixed; top:0; left:0; background:rgba(0,0,0,0.6); z-index:5; width:100%; height:100%; display:none; } #loginScreen { height:380px; width:340px; margin:0 auto; position:relative; z-index:10; display:none; background: url(login.png) no-repeat; border:5px solid #cccccc; border-radius:10px; } #loginScreen:target, #loginScreen:target + #cover{ display:block; opacity:2; } .cancel { display:block; position:absolute; top:3px; right:2px; background:rgb(245,245,245); color:black; height:30px; width:35px; font-size:30px; text-decoration:none; text-align:center; font-weight:bold; } - See more at: http://www.corelangs.com/css/box/fulloverlay.html#sthash.Xs6MwN4b.dpuf
-
 body {
     width: 100%;
     height: 100%;
@@ -371,4 +369,37 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+.hyperflux {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url('https://cloud.githubusercontent.com/assets/13873228/9373651/a423a062-46e4-11e5-82e2-57129da8e692.jpg') no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+    .standoff {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url('https://cloud.githubusercontent.com/assets/13873228/9493804/2b40db90-4bfa-11e5-83c7-5d31ef16977f.png') no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+    .explott {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url('https://cloud.githubusercontent.com/assets/13873228/9374077/4ce5bc5e-46e9-11e5-93d6-c6e1c5d435d4.png') no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
