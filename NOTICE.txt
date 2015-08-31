@@ -1,0 +1,20 @@
+#Example Licence File
+#Fill in spaces as required
+=========================================================
+  [EXAMPLE]
+   Copyright [yyyy] [Company Name]
+
+   This product includes software developed at
+   [Company 2] (http://www.website.com).
+
+   Portions of this software were developed at [Company 3].
+
+   This software contains code derived from [name] by [Company 4]. ([code used])
+
+   Regular expression support is provided by [api name],
+   which is [open source] software, written by [author], and copyright
+   by [Company 5]. The original software is
+   available from
+      [Website]
+      
+=========================================================
