@@ -376,6 +376,7 @@ body {
     color: #fff;
     background: url('https://cloud.githubusercontent.com/assets/13873228/9493823/4926a2b6-4bfa-11e5-91c4-54aa3d932569.png') no-repeat center center scroll;
     background-color: #000;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -387,6 +388,7 @@ body {
     color: #fff;
     background: url('https://cloud.githubusercontent.com/assets/13873228/9493804/2b40db90-4bfa-11e5-83c7-5d31ef16977f.png') no-repeat center center scroll;
     background-color: #000;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
