@@ -398,6 +398,7 @@ body {
     color: #fff;
     background: url('https://cloud.githubusercontent.com/assets/13873228/9374077/4ce5bc5e-46e9-11e5-93d6-c6e1c5d435d4.png') no-repeat center center scroll;
     background-color: #000;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
