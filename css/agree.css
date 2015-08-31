@@ -133,3 +133,7 @@ a:focus {
         background: #000;
     }
 }
+.agreement {
+    background-color: #f5f5dc;
+    border-radius: 3px;
+}
